@@ -7,6 +7,7 @@
   --accent: #0f5c93;
   --accent-strong: #b45309;
   --award: #a46108;
+  --award-weight: 500;
   --line: #e4e6ea;
   --soft-accent: #eef1f4;
   --shadow: 0 14px 34px rgba(40, 47, 50, 0.08);
@@ -21,6 +22,7 @@
   --accent: #6fb4e8;
   --accent-strong: #e0a45c;
   --award: #c7a46a;
+  --award-weight: 400;
   --line: #262a31;
   --soft-accent: #1c2027;
   --shadow: 0 14px 34px rgba(0, 0, 0, 0.22);
@@ -268,13 +270,11 @@ h3 {
 }
 
 .project-award {
-  display: inline-block;
-  padding: 4px 9px;
-  border-radius: 5px;
-  background: var(--soft-accent);
+  margin-bottom: 0;
   color: var(--award);
-  font-size: 13px;
-  font-weight: 600;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: var(--award-weight);
 }
 
 footer {
